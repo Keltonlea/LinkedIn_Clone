@@ -1,6 +1,6 @@
 import React from 'react'
 import SearchIcon from '@mui/icons-material/Search';
-import linkedinLogo from  "./linkedin.png"
+import linkedinLogo from  "./assets/linkedin.png"
 import "./Header.css"
 import HeaderOption from "./HeaderOption.js"
 import HomeIcon from '@mui/icons-material/Home';
@@ -8,6 +8,7 @@ import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import ChatIcon from '@mui/icons-material/Chat';
 import NotificationsIcon from '@mui/icons-material/Notifications';
+import myPhoto from "./assets/echo.JPG";
 
 
 function Header() {
@@ -29,6 +30,7 @@ function Header() {
         <HeaderOption Icon={BusinessCenterIcon} title="jobs" />
         <HeaderOption Icon={ChatIcon} title="Messaging" />
         <HeaderOption Icon={NotificationsIcon} title="Notifications" />
+        <HeaderOption avatar= {myPhoto} title="me" />
 
       </div>
     </div>
