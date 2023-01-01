@@ -1,13 +1,14 @@
 import React from 'react'
 import SearchIcon from '@mui/icons-material/Search';
+import linkedinLogo from  "./linkedin.png"
+import "./Header.css"
 
 function Header() {
   return (
     <div className = 'header'>
-      <h2>this is the header</h2>
 
       <div className="header_left">
-        <img src="" alt="" />
+        <img style={{ height: "40px", objectFit: "contain"}}  src={linkedinLogo} alt="linkedin logo" />
 
         <div className="header_search">
             <SearchIcon />
